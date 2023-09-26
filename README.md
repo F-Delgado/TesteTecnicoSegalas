@@ -21,7 +21,7 @@ Entregáveis:
 2. Instruções detalhadas de como executar o aplicativo localmente. 
 3. Documentação descrevendo as principais decisões de design, tecnologias utilizadas e uma breve explicação sobre os testes implementados.
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
                                     Minha Aplicação - Leia com atenção
 
