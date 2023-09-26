@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "28ae5537-3472-4630-9e3b-554803bdeffb",
+		"name": "API Bloco de Notas - Teste Tecnico Segalas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17372283",
+		"_collection_link": "https://speeding-desert-960599.postman.co/workspace/ghgh~7560db4b-761d-4203-8a6a-2f7de2d35ad6/collection/17372283-28ae5537-3472-4630-9e3b-554803bdeffb?action=share&source=collection_link&creator=17372283"
+	},
+	"item": [
+		{
+			"name": "Listar Anotacoes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/anotacao",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"anotacao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Anotacoes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\":\"teste4\",\r\n    \"descricao\":\"me altera\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/anotacao",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"anotacao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Anotacoes",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":4,\r\n    \"titulo\":\"Veja nova descricao\",\r\n    \"descricao\":\"atualizado com sucesso\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/anotacao",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"anotacao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Anotacores",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/anotacao/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"anotacao",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
